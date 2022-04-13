@@ -30,6 +30,5 @@ public class assignment7
 
 }
 /* Screen Dump
-
-
+Enter the change you have:
 */
