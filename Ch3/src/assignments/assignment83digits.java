@@ -48,9 +48,9 @@ public class assignment83digits
 	else                                                                    
 	{      
 	if (number > 999)
-	    System.out.println("\nError! To many digets(more then 3).");
+	    System.out.println("\nError! To many digits(more then 3).");
 	    if (number < 100)
-	    System.out.println("Error! To little digets (less then 3).");
+	    System.out.println("Error! Too little digits (less then 3).");
 	}
 
 
@@ -62,8 +62,8 @@ public class assignment83digits
 	Hundreds place digit:
 	Tens place digit:
 	Ones place digit:
-	Error! To many digets(more then 3).
-	Error! To little digets (less then 3)
+	Error! To many digits(more then 3).
+	Error! To little digits (less then 3)
 	*/
 
 
