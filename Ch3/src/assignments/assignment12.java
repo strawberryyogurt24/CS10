@@ -1,7 +1,7 @@
 package assignments;
 /*
 
-Program: assignment11.java          Date: April 25, 2022
+Program: assignment12.java          Date: April 25, 2022
 
 
 Author: Ariana Paik

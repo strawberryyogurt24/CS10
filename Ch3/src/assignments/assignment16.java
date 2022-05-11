@@ -1,7 +1,7 @@
 package assignments;
 /*
 
-Program: assignment11.java          Date: May 4, 2022
+Program: assignment16.java          Date: May 4, 2022
 
 
 Author: Ariana Paik
@@ -14,40 +14,43 @@ import java.util.Scanner;
 public class assignment16 
 {
 
-	   public static void main(String[] args) {
+	 public static void main(String[] args) {
 
-           int secretNumber;
+         int secretNumber;
 
-           secretNumber = (int) (Math.random() * 19 + 1);           
+         secretNumber = (int) (Math.random() * 19 + 1);          
 
-           Scanner keyboard = new Scanner(System.in);
+         Scanner keyboard = new Scanner(System.in);
 
-           int guess;
+         int guess;
 
-           do {
+          {
 
-                 System.out.print("Enter a guess (1-20): ");
+               System.out.print("Enter a guess (1-20): ");
 
-                 guess = keyboard.nextInt();
+               guess = keyboard.nextInt();
 
-                 if (guess == secretNumber)
+               if (guess == secretNumber)
 
-                       System.out.println("You Won!");
+              System.out.println("Computer’s Number is:"+secretNumber+"\nPlayer’s Number is:"+guess+"\nYou Won!");
 
-                 else if (guess < secretNumber)
+               else if (guess < secretNumber)
 
-                       System.out
+                     System.out
 
-                                  .println("Better luck next time.");
+                                .println("Computer’s Number is:"+secretNumber+"\nPlayer’s Number is:"+guess+"\nBetter luck next time.");
 
-                 else if (guess > secretNumber)
+               else if (guess > secretNumber)
 
-                       System.out
+                     System.out
 
-                                  .println("Better luck next time.");
+                                .println("Computer’s Number is:"+secretNumber+"\nPlayer’s Number is:"+guess+"\nBetter luck next time.");
 
-           } while (guess != secretNumber);
+         } while (guess != secretNumber);
 
-     }
+   }
+
 
 }
+
+
